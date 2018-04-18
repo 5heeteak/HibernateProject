@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.circle{
+	height: 7em;
+	width: 7em;
+	border-radius: 20%;
+	background-color: #555;
+	display: flex;
+	justify-content: center;
+}
+
+.circle a{
+	align-self: center;
+}
+
+.aside{
+	font-size: 10px;
+	width: 7em;
+	height: 14em;
+	background: #ffffff00;
+	position: fixed;
+	top: 46px;
+	right:-7em;
+	display: none;
+	/* right:-5em; */
+	/* transition:12s; */
+	/* transition-property: left; */
+	
+}
+
+@keyframes show-aside{
+	0%{
+		opacity: 0;
+		
+	}
+	
+	100%{
+		opacity: 1;
+		right:0px;
+		box-shadow: 20px 19px 41px #829fad;
+	}
+}
+
+.aside.show{
+	display:inline-block;
+	right:0px;
+	animation: show-aside .5s;
+
+}
