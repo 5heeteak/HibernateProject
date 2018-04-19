@@ -9,7 +9,7 @@
 			<ul>
 				
 				<li>
-					<a href="">
+					<a>
 					<img id="ham-button" src="${root}/resources/icon/ic_dehaze_black_24dp_1x.png" />
 					</a>
 				</li>
@@ -19,7 +19,7 @@
 	</header>
 	
 <script>
-	window.addEventListener("load",function(event){
+	/* window.addEventListener("load",function(event){
 		var button =document.querySelector("#ham-button");
 		var aside = document.querySelector(".aside");
 
@@ -32,18 +32,7 @@
 			e.preventDefault();
 		};
 		
-	});
-	/* $(function()
-	{
-		var menuBtn = $("#ham-button");
-		var aside = $(".aside");
-		
-		menuBtn.click(function()
-		{
-			
-			
-		});
-		
 	}); */
+	
 	
 </script>	

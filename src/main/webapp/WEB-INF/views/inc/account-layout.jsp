@@ -9,13 +9,15 @@
 <head>
     <meta charset="utf-8" />
 	<meta  name="viewport" 
-		content="width=device-width, initial-scale=1,minimum-scale=1,user-scalable=1"    
-	>
+		content="width=device-width, initial-scale=1,minimum-scale=1,user-scalable=1"   >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="${root}/resources/js/aside.js"></script>
 
-	<title>Insert title here</title>
 	<link href="${root}/resources/css/style.css" type="text/css" rel="stylesheet">
+	<link href="${root}/resources/css/aside.css" type="text/css" rel="stylesheet">
+	<title>Insert title here</title>
 </head>
-<body>
+<body class="body">
 	<!-- header -->
 	<tiles:insertAttribute name="header" />
 	<!-- aside -->
@@ -26,3 +28,6 @@
 	<tiles:insertAttribute name="footer" />
 </body>
 </html>
+<script>
+
+</script>
