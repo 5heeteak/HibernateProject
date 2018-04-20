@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+button{
+	border: none;
+	padding: 0px;
+	
+}
+
+input{
+	border: none;
+	padding: 0px;
+	
+}
+
+.flex-column{
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-btn{
+	display: flex;
+	justify-content: space-between;
+}
+	.nav-btn button{
+		min-width: 33%;
+		height: 3em;
+		font-size:14px;
+		background-color:#febaed;
+		color: white;
+	}
