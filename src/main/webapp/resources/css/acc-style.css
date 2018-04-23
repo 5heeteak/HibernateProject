@@ -12,9 +12,43 @@ input{
 	
 }
 
+.font-size-14{
+	font-size: 1.5em;
+}
+
+.border-1px{
+	border: 1px solid lime;
+}
+
 .flex-column{
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 2.5em;
+}
+.flex-column span{
+	padding-bottom: 1em;
+}
+
+.flex-row{
+	position:relative;
+	display: flex;
+	top: 1em;
+}
+
+.flex-rows{
+	display: flex;
+}
+
+.space-around{
+	justify-content: space-around;
+}
+
+.space-between{
+	justify-content: space-between;
+}
+
+.center{
+	align-self: center;
 }
 
 .nav-btn{
@@ -28,3 +62,37 @@ input{
 		background-color:#febaed;
 		color: white;
 	}
+#acc-history{
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid aqua;
+	padding-bottom: 1em;
+}	
+	#acc-history span{
+		align-self: center;
+	}	
+	
+	#payment{
+		width: 3em;
+		height: 3em;
+	}
+
+.history-add-btn{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+
+.img-reg-btn{
+	width: 4em;
+	height: 4em;
+}
+
+#camera{
+	text-shadow: none;
+	background-image: "../icon/acc/ic_camera_enhance_black_24dp_2x.png" no-repeat;
+	
+}
+
+	

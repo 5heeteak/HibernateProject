@@ -4,7 +4,6 @@
   <c:set var="ctx" value="${pageContext.request.contextPath }" />
   
 	<nav class="aside">
-		<h1></h1>
 		<ul>
 			<li>
 				<a href="${ctx}/day/home" >기념일</a>
@@ -13,5 +12,16 @@
 				<a href="${ctx}/diary/home" >추억 앨범</a>
 			</li>
 			
+		</ul>
+	</nav>
+	
+	<nav>
+		<ul>
+			<li>
+				<a href=""></a>
+			</li>
+			<li>
+				<a href=""></a>
+			</li>
 		</ul>
 	</nav>

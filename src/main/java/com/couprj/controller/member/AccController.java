@@ -14,16 +14,10 @@ public class AccController
 		return "member.acc.home";
 	}
 	
-	@RequestMapping("/accmodal")
-	public String accmodal()
+	@GetMapping("/add")
+	public String historyAdd()
 	{
-		return "member/acc/accmodal";
-	}
-	
-	@RequestMapping("/acchome")
-	public String acchome()
-	{
-		return "member/acc/acchome";
+		return "member.acc.historyadd";
 	}
 	
 

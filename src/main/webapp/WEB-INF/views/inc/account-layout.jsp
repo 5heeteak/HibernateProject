@@ -12,15 +12,10 @@
 		content="width=device-width, initial-scale=1,minimum-scale=1,user-scalable=1"   >
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="${root}/resources/js/aside.js"></script>
-	<script type="text/javascript" src="${root}/resources/js/acc/select-acc.js"></script>
-	<script type="text/javascript" src="${root}/resources/js/acc/select-acc1.js"></script>
-	<script type="text/javascript" src="${root}/resources/js/chart/circle-progress.js"></script>
-	<script type="text/javascript" src="${root}/resources/js/chart/progress.js"></script>
 	
 	<link href="${root}/resources/css/style.css" type="text/css" rel="stylesheet">
 	<link href="${root}/resources/css/aside.css" type="text/css" rel="stylesheet">
 	<link href="${root}/resources/css/acc-style.css" rel="stylesheet" type="text/css">
-	<link href="${root}/resources/css/chart/progress.css" rel="stylesheet" type="text/css">
 	<title>Insert title here</title>
 </head>
 <body class="body">
