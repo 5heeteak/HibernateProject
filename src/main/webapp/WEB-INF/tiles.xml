@@ -21,7 +21,7 @@
     <put-attribute name="footer" value="/WEB-INF/views/inc/footer.jsp" />
   </definition>
   
-  <definition name="dayTemplate" template="/WEB-INF/views/inc/account-layout.jsp">    
+  <definition name="dayTemplate" template="/WEB-INF/views/inc/layout/day-layout.jsp">    
     <put-attribute name="header" value="/WEB-INF/views/inc/header.jsp" />
     <put-attribute name="aside" value="/WEB-INF/views/member/day/inc/aside.jsp" />
     <put-attribute name="footer" value="/WEB-INF/views/inc/footer.jsp" />

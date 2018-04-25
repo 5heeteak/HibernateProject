@@ -11,7 +11,7 @@
 	</nav>
 	<section class="border-1px">
 		<nav class="flex-rows space-between font-size-14">
-			<button>취소</button>
+			<button onclick="location.href='${root}/acc/home'">취소</button>
 			<span>지출내역 추가 </span>
 			<button>완료</button>
 		</nav>

@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* -------------------------------tag style reset---------------- */
+
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+	height: 100%;
+	
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: #0080ff;
+}
+
+a:hover{
+	color: #0080ff;
+}
+
+
+
+/* ------------------------------my style cascade----------------------- */
+.hidden{
+	display: none;
+}
+
+/* ----------------.header---------------------------------------------------------------- */
+.header{
+		height: 45px;
+		top:0px;
+		width: 100%;
+		position: fixed;
+		background: #ffffff00;
+		/* border-bottom: 1px solid #666666; */
+}
+	.header > h1{
+		font-size: 14px;
+		height: inherit;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	/* ------------------.main-menu----------------------------------------------- */
+	
+	.main-menu{
+		position: relative;
+		top: -45px;
+	}
+		.main-menu ul{
+			display: flex;
+			justify-content: flex-end;
+		}
+		
+			.main-menu li,
+			.main-menu li a{
+				width: 45px;
+				height: 45px;
+				display: flex;
+				justify-content: center;
+			}
+			
+				.main-menu li a img{
+					width: 24px;
+					height: 24px;
+					align-self: center;
+					
+				}
+/* --------------------------------main style-------------------------------- */
+
+.main{
+	position:relative;
+	top:46px;
+}
+
+.day-home{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.day-list{
+	width: 6em;
+	height: 6em;
+	border:1px solid aqua;
+	border-radius: 50%;
+	align-self: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2em;
+}
+
+	.day-list span{
+		font-size:2em;
+		align-self: center;
+		
+	}
+
+.day-btn{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	
+}
+
+	.day-btn>ul{
+		display: flex;
+		flex-direction: column;
+	}	
+	
+		.day-btn>ul>li{
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			right:0px;
+			bottom: 0px;	
+			transition: 3s;
+		}	
+		
+	.day-hidden{
+		display:none;
+	}	
+	
+	.day-remove.show{
+		bottom: 120px;
+		display: inline-block;
+	}
+	
+	.day-add.show{
+		bottom: 60px;
+		display: inline-block;
+	}
+	
+		

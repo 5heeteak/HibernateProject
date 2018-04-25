@@ -5,9 +5,9 @@
 
 <main class="main">
 	<nav class="nav-btn">
-		<button>메인</button>
-		<button>지출 내역</button>
-		<button>지출 분석</button>
+		<button onclick="location.href='${root}/acc/home'">메인</button>
+		<button onclick="location.href='${root}/acc/history'">지출 내역</button>
+		<button onclick="location.href='${root}/acc/analysis'">지출 분석</button>
 	</nav>
 	<section class="border-1px">
 		<div class="border-1px">

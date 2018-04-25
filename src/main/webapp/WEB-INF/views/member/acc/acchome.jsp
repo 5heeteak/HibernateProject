@@ -13,6 +13,7 @@
 	<link href="${root}/resources/css/acc-style.css" rel="stylesheet" type="text/css">
 	<link href="${root}/resources/css/chart/progress.css" rel="stylesheet" type="text/css">
 </head>
+	<main>
 		<div>
 			<span>4월</span>
 		</div>
@@ -29,11 +30,12 @@
 		<div class="second circle">
 		      <strong></strong>
 		</div>
-	<section class="border-1px">
-		<div id="acc-content">
-			<button id="add-acc-btn">
-				<img src="${root}/resources/icon/ic_add_circle_outline_black_24dp_2x.png" />
-				<span>예산 설정</span>
-			</button>
-		</div>
-	</section>
+		<section class="border-1px">
+			<div id="acc-content">
+				<button id="add-acc-btn">
+					<img src="${root}/resources/icon/ic_add_circle_outline_black_24dp_2x.png" />
+					<span>예산 설정</span>
+				</button>
+			</div>
+		</section>
+	</main>

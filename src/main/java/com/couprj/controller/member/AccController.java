@@ -14,6 +14,18 @@ public class AccController
 		return "member.acc.home";
 	}
 	
+	@GetMapping("/history")
+	public String history()
+	{
+		return "member.acc.history";
+	}
+	
+	@GetMapping("/analysis")
+	public String analysis()
+	{
+		return "member.acc.analysis";
+	}
+	
 	@GetMapping("/add")
 	public String historyAdd()
 	{

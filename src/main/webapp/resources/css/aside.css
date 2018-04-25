@@ -48,3 +48,9 @@
 	animation: show-aside .5s esae normal forwards;
 
 }
+
+.aside li{
+	width: 100px;
+	height: 100px;
+	background: aqua;
+}
