@@ -1,35 +1,7 @@
 @charset "UTF-8";
+@import url("../style.css");
 
 /* -------------------------------tag style reset---------------- */
-
-html{
-	height: 100%;
-}
-
-body{
-	margin: 0px;
-	height: 100%;
-	
-}
-
-h1,h2,h3,h4,h5,h6{
-	margin: 0px;
-}
-
-ul{
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-}
-
-a{
-	text-decoration: none;
-	color: #0080ff;
-}
-
-a:hover{
-	color: #0080ff;
-}
 
 
 
@@ -38,23 +10,6 @@ a:hover{
 	display: none;
 }
 
-/* ----------------.header---------------------------------------------------------------- */
-.header{
-		height: 45px;
-		top:0px;
-		width: 100%;
-		position: fixed;
-		background: #ffffff00;
-		/* border-bottom: 1px solid #666666; */
-}
-	.header > h1{
-		font-size: 14px;
-		height: inherit;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		
-	}
 	/* ------------------.main-menu----------------------------------------------- */
 	
 	.main-menu{
@@ -145,4 +100,9 @@ a:hover{
 		display: inline-block;
 	}
 	
+	
+footer{
+	position:absolute;
+	bottom: 0px;
+}
 		

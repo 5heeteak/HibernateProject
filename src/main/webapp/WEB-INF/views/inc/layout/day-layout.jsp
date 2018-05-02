@@ -13,7 +13,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="${root}/resources/js/aside.js"></script>
 	
-	<link href="${root}/resources/css/day/style.css" type="text/css" rel="stylesheet">
+	<link href="${root}/resources/css/day/day.css" type="text/css" rel="stylesheet">
 	<link href="${root}/resources/css/aside.css" type="text/css" rel="stylesheet">
 	<title>Insert title here</title>
 </head>

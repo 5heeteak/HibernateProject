@@ -21,7 +21,7 @@
 			<li class="day-remove day-hidden" >
 				<img src="${root}/resources/icon/day/ic_remove_circle_outline_black_24dp_2x.png"  />
 			</li>
-			<li class="day-add day-hidden" >
+			<li class="day-add day-hidden" onclick="location.href='add'">
 				<img src="${root}/resources/icon/ic_add_circle_black_24dp_2x.png" />
 			</li>
 		</ul>

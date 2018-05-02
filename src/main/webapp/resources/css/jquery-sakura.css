@@ -1,5 +1,9 @@
 body{
-	background-color: #e3a2c259;
+	background-color: #e9b0cc26;
+}
+
+.main{
+	height: 100vh;
 }
 
 @-webkit-keyframes fall {

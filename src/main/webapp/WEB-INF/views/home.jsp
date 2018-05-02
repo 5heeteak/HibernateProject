@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<div><a href="day/home">이동이동<img src="" ></a></div>
+<div class="main" onclick="location.href='day/home'"></div>
 
 
 </body>
@@ -35,4 +35,6 @@ $(window).load(function () {
 	        ]
 	    });
 });
+
+
 </script>
